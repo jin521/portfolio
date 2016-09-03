@@ -1,0 +1,403 @@
+
+/*for animated blinking cursor */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*mouse*/
+
+.bubble {
+  background-color: hotpink;
+  opacity: 0.2;
+  position: absolute;
+  border: 2px solid hotpink;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px
+}
+
+
+/*body*/
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    line-height: 150%;
+}
+
+
+
+
+.mainpage {
+    margin-bottom: : 7em;
+}
+
+
+.title-name {
+    font-family: Sketch Toronto;
+    font-size: 50px;
+    letter-spacing: 1.2px;
+    color: #D14246;
+
+}
+
+.title-nav{
+     margin-top: 20px;
+     margin-bottom: 100px;
+     margin-left: 50px;
+}
+.title-nav>a {
+    font-family: 'Poiret One', cursive;
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 10px;
+    letter-spacing: 1.0px;
+}
+
+.title-nav>a:hover {
+     text-decoration: underline overline;
+     text-decoration-style: wavy;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.screen-wrapper div, .screen-wrapper p, .screen-wrapper li {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+
+.home .screen {
+    width: 50%;
+    min-height: 150px;
+    text-shadow: #000 0px 1px 0px;
+}
+
+
+.screen {
+    display: block;
+    margin-top: 100px;
+    position: relative;
+    /*font-family: LUCKY TYPEWRITER;*/
+    font-family: USIS1949;
+    /*font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;*/
+    padding-bottom: 6rem;
+    margin: 0 auto;
+    background-color: #B2B2B2;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHUlEQVQIW2PcuHHjM39/fykGKGCEMTAEYCoxVAAAXMUIBaMUxRcAAAAASUVORK5CYII=) repeat;
+    border-radius: 20px;
+    width: 50%;
+    height:250px;
+}
+
+
+
+
+
+.about-container {
+    text-align: left;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 400px;
+    height: 700px;
+    background: #292929;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+
+}
+
+.about-container p {
+    font-family: 'opensans-regular', sans-serif;
+    line-height: 30px;
+    color: #7A7A7A;
+}
+
+
+.whoandwhy{
+      font-family: Better Together Demo;
+      font-size: 60px;
+      color:  #F7484E;
+
+}
+
+
+
+
+.three-col{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 120px;
+    /*background-color: #F7484E;*/
+
+
+}
+
+.nine-col{
+    width: 50%;
+    float: right;
+    padding-left: 80px;
+    padding-right: 50px;
+    letter-spacing: 1px;
+    text-align:left;
+
+}
+.about-container .profilepic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+
+
+.skills {
+  margin-top: 0;
+  width: 100%;
+  height:750px;
+}
+
+.skills-left{
+  width: 50%;
+  float: left;
+  background-color: white;
+  height:750px;
+
+}
+
+
+.skills-right{
+  margin-top: 0;
+  width: 50%;
+  float: right;
+  background-color: #D14246;
+  height:750px;
+
+}
+
+
+.skills-title {
+      font-family: Better Together Demo;
+      font-size: 60px;
+      positon: relative;
+      margin: 0 auto;
+      padding-top: 300px;
+      padding-left: 100px;
+}
+
+
+/*Project section */
+
+.projects-container {
+  padding-top: 100px;
+    overflow: auto;
+    height: 100%;
+    width: 69vw;
+    text-align: center;
+    padding-bottom: 100px;
+    /*border: 5px dotted pink;*/
+
+}
+
+.project-header{
+      font-family: Better Together Demo;
+      font-size: 60px;
+      positon: relative;
+      margin: 0 auto;
+      color: #F7484E;
+
+}
+
+
+.project-title {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 26px;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
+}
+
+
+.grid {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: left;
+    /*border: 5px dotted green;*/
+}
+
+
+.project1{
+    width: 100%;
+    height:300px;
+}
+.project-info {
+    position: absolute;
+    color: black;
+    letter-spacing: 1.5;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+.grid-happyplanet-content{
+    width: 425px;
+    height: 275px;
+    float:left;
+    margin-left: 100px;
+
+}
+.grid-happyplanet-img {
+    width: 425px;
+    height: 275px;
+    float:right;
+    overflow: hidden;
+    opacity: 0.5;
+    /*border: 10px dotted orange;*/
+}
+
+.happyplanet-img {
+    width: 425px;
+    height: 275px;
+}
+
+.grid-events-img{
+    width: 425px;
+    height: 275px;
+    float:left;
+    margin-left: 100px;
+    overflow: hidden;
+    opacity: 0.5;
+    /*border: 10px dotted orange;*/
+}
+
+.events-img{
+    width: 425px;
+    height: 275px;
+
+}
+
+.grid-events-content{
+  width: 425px;
+  height: 275px;
+  float: right;
+
+
+}
+
+
+.grid-s4w-content{
+    width: 425px;
+    height: 275px;
+    float:left;
+    margin-left: 100px;
+}
+
+.grid-s4w-img {
+    width: 425px;
+    height: 275px;
+    float:right;
+    overflow: hidden;
+    border: 1px dotted black;
+    opacity: 0.5;
+}
+
+
+.s4w-img{
+  width: 425px;
+  height: 275px;
+}
+
+
+
+
+.grid-ttt-img{
+    width: 425px;
+    height: 275px;
+    float:left;
+    margin-left: 100px;
+    overflow: hidden;
+    opacity: 0.5;
+    /*border: 10px dotted orange;*/
+}
+
+.ttt-img{
+    width: 425px;
+    height: 275px;
+
+}
+
+.grid-ttt-content{
+  width: 425px;
+  height: 275px;
+  float: right;
+
+}
+
+
+
+/*contacts section */
+
+
+
+.contacts-container {
+  margin-top: 0;
+  width: 100%;
+  height:200px;
+
+}
+
+.contacts-left{
+  width: 50%;
+  float: left;
+  background-color: #D14246;
+  height:750px;
+
+}
+
+
+.contacts-right{
+  margin-top: 0;
+  width: 50%;
+  float: right;
+  background-color: white;
+  height:750px;
+
+}
+
+
+.contacts-title {
+      font-family: Better Together Demo;
+      font-size: 60px;
+      positon: relative;
+      margin: 0 auto;
+      padding-top: 300px;
+      padding-left: 100px;
+}

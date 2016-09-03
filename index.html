@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/mouse.js"></script>
+    <script src="js/others.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div class="title-nav">
+
+        <h2 class="title-name">Qiu Jin </h2>
+
+        <a class="jumper" href="">About</a>
+        <a class="jumper" href="">Contact</a>
+        <a class="jumper" href="">Skills</a>
+        <a class="jumper" href=".projects-container">Projects</a>
+        <a class="" href="pdf/resumeQiuJin.pdf" target="_blank">Resume</a>
+        <a class="" href="https://github.com/jin521">Github</a>
+        <a class="" href="https://www.behance.net/autumnqiujbc2e">Behance</a>
+
+    </div>
+
+    <div class="screen">
+        <div class="screen-wrapper">
+            <div class="screen-typed" style="white-space:pre">
+                <span class="cursor" id="cursor1" style="display: inline;"> > </span>
+                <span id="screentyped-1"></span>
+                <br>
+                <span class="cursor" id="cursor2" style="display: inline;"> > </span>
+                <span id="screentyped-2"></span>
+                <br>
+                <span class="cursor" id="cursor3" style="display: inline;"> > </span>
+                <span id="screentyped-3"></span>
+                <span id="typed-cursor">|</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About -->
+    <div class="about-container">
+
+        <div class="row">
+            <div class="three-col">
+
+                <h2 class="whoandwhy">Who and Why</h2>
+                  <img class="profilepic" src="img/profilebnw.jpg">
+            </div>
+            <div class="nine-col">
+
+
+                <p>Before learning to code I came from a background in Environmental engineering field, working in different roles - process design, contract management, sales and marketing, tendering and costing, in three offices and 2 counties -China and now Australia, I am a big fun of challenges and new adventures.</p>
+
+                <br>
+
+                <p>Early 2016 I was influenced by several new friends who are developpes and became every interested in learning to code, they make me realize that creating things with your hands, with codes or programms is just different ways to express creativity.I decided to pursue a change of career in web development,  I left my job and enrolled in the three month full-time Web Development Immersive Course at General Assembly which I have very recently completed. </p>
+                <br>
+                <p>To achieve the goal of making good web applications I trust in teamwork, latest technology and intuition.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About end  -->
+
+
+
+
+    <!-- skills -->
+
+    <section class="skills">
+
+      <div class="skills-left">
+      </div>
+
+      <div class="skills-right">
+          <h2 class="skills-title">Skills</h2>
+
+      </div>
+
+
+    </section>
+
+    <!-- skills end  -->
+
+
+
+
+    <!-- Projects -->
+
+    <section class="projects-container">
+        <h2 class='project-header'>Projects</h2>
+        <div class="project1">
+            <div class="grid grid1 grid-happyplanet-content">
+                <div class='project-info'>
+                    <a href="https://thehappyplanet.herokuapp.com/" target="_blank" class="project-title">Happy Planet</a>
+                    <p class="about-Happyplanet">
+                      An internative applicaiton to create  and share happiness and
+
+                      <br>positivity messages.each floating particle is clickable and
+                      <br>contain a message from around the world,you can make also
+                      <br>this app your little journal of happiness by signing up.
+                      <br> don't forget to srcoll with your mouse to zoom in and out.
+                      <br> Click and drag to move.
+                    </p>
+
+                      <br>
+                      <br>
+                    <p class="built-with">
+                        <span>Built with :</span> HTML,CSS, JavaScript, Three.js,Bootstrap,
+                        <br> Ruby,Rails,Twitter gem,Ajax,Heroku
+                    </p>
+                </div>
+            </div>
+            <div class="grid grid2 grid-happyplanet-img">
+                <a href="https://thehappyplanet.herokuapp.com/" target="_blank">
+                    <img src="img/happy-planet.png" class="happyplanet-img">
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="project2">
+            <div class="grid grid2 grid-events-img">
+                <a href="https://eventsltx.herokuapp.com/" target="_blank">
+                    <img src="img/Events.png" class="events-img">
+                </a>
+            </div>
+            <div class="grid grid1 grid-events-content">
+                <div class='project-info'>
+                    <a href="https://eventsltx.herokuapp.com/" target="_blank" class="project-title">Events</a>
+                    <p class="about-Events">
+                        An applicaiton where you can find information about
+                        <br> any events by category,location, keyword and date.
+                        <br> you can register create your own events.
+                        <br> It is a group project by Chris, Armando and myself
+                        <br> at General Assembly
+                    </p>
+                    <br>
+
+                    <p class="built-with">
+                        <span>Built with :</span> - Ruby, Rails 4.2.6, Bootstrap, jQuery,
+                        <br>CSS (Sass),HTML 5, Javascript,Eventfinda gem,Heroku
+                        <br>Cloudinary,Devise gem, Omniauth gem, Disqus, httparty,
+                        <br> Postgres,google API
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="project3">
+            <div class="grid grid2 grid-s4w-img">
+                <a href="https://stories4whiskies.herokuapp.com/" target="_blank">
+                    <img src="img/stories4whyskies.png" class="s4w-img">
+                </a>
+            </div>
+            <div class="grid grid1 grid-s4w-content">
+                <div class='project-info'>
+                    <a href="https://stories4whiskies.herokuapp.com/" target="_blank" class="project-title">Stories4whyskies</a>
+                    <p class="about-Stories">
+                        An applicaiton designed for story and whisk(e)y lovers to
+                        <br>meet and connect.
+
+
+                    </p>
+                    <br>
+                    <br>
+                    <p class="built-with">
+                        <span>Built with :</span> HTML, JavaScript,CSS,Bootstrap,Ruby,Rails
+                        <br> ,SendGrid,Geocoder,Heroku
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+                <!-- <div class="project4">
+                    <div class="grid grid2 grid-ttt-img">
+                        <a href="https://eventsltx.herokuapp.com/" target="_blank">
+                            <img src="img/Tic-tac-toe.png" class="ttt-img">
+                        </a>
+                    </div>
+                    <div class="grid grid1 grid-ttt-content">
+                        <div class='project-info'>
+                            <a href="https://jin521.github.io/Project0/" target="_blank" class="project-title">Tic Tac Toe</a>
+                            <p class="about-ttt">
+                                "Visualisation of ............."
+                                <br> "sdsomeihtrt"
+                            </p>
+
+                            <p class="built-with">
+                                <span>Built with :</span> "sdssfsfsgsgsg"
+                                <br> "hhhhhhhhhhhh"
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+
+
+
+    </section>
+
+    <!-- Contacts   -->
+
+    <section class="contacts-container">
+
+      <div class="contacts-left">
+      </div>
+
+      <div class="contacts-right">
+          <h2 class="contacts-title">Contacts</h2>
+
+      </div>
+
+
+    </section>
+
+
+
+
+
+</body>
+
+</html>
